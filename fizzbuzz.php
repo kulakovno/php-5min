@@ -9,3 +9,4 @@ while ($i < $count) {
     $echo = ($i % 2 === 0) && ($i % 5 == 0) ? 'FizzBuzz' : $echo;
     echo $echo;
 }
+
