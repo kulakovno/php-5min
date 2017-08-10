@@ -1,6 +1,7 @@
 <?php
 $count = 100;
 $i = 0;
+
 while ($i < $count) {
     $i++;
     $echo = ($i % 2 == 0) ? 'Fizz' : $i;
